@@ -31,5 +31,16 @@ void main() {
   print(map2); // output - {name: abhishek, work: mobiledev, no: 2}
   
   
+  print(map2.isNotEmpty);  // true
+  print(map2.isEmpty);  // false
+  print(map2.length);    // 3
+  print(map2.keys);   // (name, work, no)
+  print(map2.values);   // (abhishek, mobiledev, 2)
+  print(map2.containsKey('name')); // true
+  print(map2.containsValue(false)); // false
+  print(map2.remove('no'));    // 2
+  
+  
+  
 
 }
