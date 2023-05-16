@@ -8,7 +8,7 @@ void main() {
   };
   
   
-  map['key1'] = 'Abhishekdev'; // it will override previous given value to it with this
+  map['key1'] = 'Abhishekdev'; // it will override previous given value to it with this output - {key1: Abhishekdev, key2: 4}
   
   
   print(map);
