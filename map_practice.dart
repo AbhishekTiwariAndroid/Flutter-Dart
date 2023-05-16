@@ -39,6 +39,8 @@ void main() {
   print(map2.containsKey('name')); // true
   print(map2.containsValue(false)); // false
   print(map2.remove('no'));    // 2
+  print(map2);   // {name: abhishek, work: mobiledev}
+
   
   
   
